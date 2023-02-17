@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../img/favicon_.png">
+        <title>MP-Rent-Car</title>
+    </head>
+    <body>
+        <header>
+            <img src="../img/logo_mp.png" alt=""> 
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="nuestros-autos.html">NUESTROS AUTOS</a></li>
+                    <li><a href="reservas.html">RESERVAS</a></li>
+                    <li><a href="condiciones.html">CONDICIONES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>                
+                </ul>
+            </nav>
+        </header>
+        <main id="reservas__form">    
+            <h2>Formulario de Reservas</h2>
+            <h3>Verifica disponibilidad de autos y haz tu reserva por aqui</h3>
+            <form action="submeter-formulario.php" method="post">            
+                <div>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </div>              
+                <div>
+                    <label for="email" class="colocar_email">Email</label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </div>          
+                <div>
+                    <label for="telefone" class="colocar_telefono">Teléfono</label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </div>    
+                <div>
+                    <label for="start" class="desde">Desde:</label>
+                    <input type="date" id="start" name="trip-start"
+                    value="today"
+                    min="2023-01-01" max="2024-12-31">
+                    <label for="finish" class="hasta">Hasta:</label>
+                    <input type="date" id="finish" name="trip-finish"
+                    value="today"
+                    min="2023-01-01" max="2024-12-31">
+                </div>  
+                <div>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </div>                   
+                <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+            </form>     
+        </main>
+        <footer id="footer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0674537973046!2d-56.1823332!3d-34.90475670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81ca8d8b154b%3A0x18783718d145d8b8!2sC.%20Tacuaremb%C3%B3%201429%2C%2011200%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1674747807935!5m2!1ses!2suy" width="1280" height="250" style="border: 150px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h5>Derechos Reservados - Marcos Perdomo</h5>
+    </footer>
+    </body>
+</html>

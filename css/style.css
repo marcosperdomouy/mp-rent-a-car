@@ -1,0 +1,214 @@
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*body*/
+body{
+    background: rgb(255,250,243);
+    background: linear-gradient(170deg, rgba(255,250,243,1) 0%, rgba(187,182,150,1) 35%, rgba(236,197,154,1) 100%);
+
+}
+
+/* header */
+header{
+    display: flex;
+    height: 105px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 25px;
+}
+.navegacion ul{
+    list-style-type: none;
+    text-align: center;
+    background: #ffffff;
+    background: linear-gradient(170deg, rgba(255,250,243,1) 0%, rgba(187,182,150,1) 0%, rgba(236,197,154,0) 0%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    margin: 25px;
+}
+.navegacion li{
+    display: inline-block;
+    justify-content: space-between;
+
+}
+.navegacion a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;   
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    padding: 25px;
+    width: 50px;
+    color: #eb5e28;
+
+}
+
+/* TEXTO GENERICO */
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #252422;
+}
+h4  {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #252422;
+}
+h5{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #252422;
+}
+.margen{
+    margin: 25px 50px;
+}
+
+/*banner*/
+#banner{
+    margin: 25px;
+    width: 25px;
+}
+
+
+/*Home - Inicio*/
+
+.subtitulo{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #252422;
+}   
+
+.tarjeta-plan{
+    width: 24%;
+    padding: 5px;
+    justify-content: center;
+}
+.tarjeta-plan__plan{
+    padding: 20px;
+    text-align: center  ;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #252422;
+}
+.tarjeta-plan__descripcion{
+    text-align: center;
+    margin: 25px 50;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #eb5e28;
+}
+.tarjeta-plan__precio{
+    text-align: center;
+    margin: 25px 50;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #252422;
+}
+
+.tarjeta-plan__button{
+    justify-content: center;
+    display:inline-block;
+    width:50%;
+    padding: 25px;
+    margin: 15px;
+    border: 1px solid #eb5e28;
+    border-radius:5px;
+    color:#252422;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: all 0.9s;
+    text-align: center;
+    font-size: 15px;
+}
+.tarjeta-plan__button:hover{
+    background:#252422;
+    color:#ccc5b9
+}
+
+.contenedor-plan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* pagina condiciones */
+.condiciones{
+    text-align: justify;
+    margin: 25px 50;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #403d39;
+}
+
+/* pagina reservas*/
+#reservas__form{
+    margin: 50px;
+    padding: 10px;
+}
+
+.contacto_form{
+    text-align: justify;
+
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #252422;
+}
+
+.contacto_form input{
+    margin: 25px 50px;
+}
+
+/* MAIN - Nuestros Autos */
+
+.subtitulo{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #252422;
+}
+.tarjeta-planes{
+    width: 28%;
+    padding: 5px;
+}
+.tarjeta-planes__imagen{
+    width: 100%;
+}
+.tarjeta-planes__auto{
+    text-align: center;
+    margin: 25px 50;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #403d39;
+}
+.contenedor-autos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tarjeta-planes__button{
+    width: 50%;
+    margin: 1px;
+    padding: 5px;
+    background-color: #ccc5b9;
+    color: #252422;
+}
