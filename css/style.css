@@ -23,6 +23,11 @@ header{
     padding: 25px;
     margin: 25px;
 }
+.nav nav-tabs{
+    margin: 10px;
+    padding: 0px;
+}
+
 .navegacion ul{
     list-style-type: none;
     text-align: center;
@@ -97,7 +102,6 @@ h5{
 .tarjeta-plan__plan{
     padding: 20px;
     text-align: center  ;
-    text-decoration: underline;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
